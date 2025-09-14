@@ -272,7 +272,7 @@ public class Main {
 
 
         // Задача 13. Количество знаков в числе.
-        int numeric;
+        long numeric;
         while (true) {
             System.out.println("Задача 13. Введите целое число: ");
             if (scanner.hasNextInt()) {
