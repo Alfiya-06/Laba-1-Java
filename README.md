@@ -13,55 +13,73 @@
 
 Описание методов класса Laba.
 1) public double fraction(double x);
+
 Возвращает дробную часть числа x.
 
 2) public int charToNum(char x);
+
 Преобразует символ-цифру ('0' … '9') в соответствующее целое число.
 
 3) public boolean is2Digits(int x);
+
 Проверяет, является ли число двузначным (включая отрицательные).
 
 4) public boolean isInRange (int a, int b, int num);
+
 Проверяет, входит ли число num в диапазон между a и b (границы могут быть в любом порядке).
 
 5) public boolean isEqual(int a, int b, int c);
+
 Проверяет равенство трёх чисел.
 
 6) public int abs (int x);
+
 Возвращает модуль числа.
 
 7) public boolean is35 (int x);
+
 Проверяет, делится ли число на 3 или на 5, но не на оба одновременно.
 
 8) public int max3 (int x, int y, int z);
+
 Находит максимальное из трёх чисел.
 
 9) public int sum2 (int x, int y);
+
 Считает сумму двух чисел. Если сумма находится в диапазоне [10,19], возвращает 20.
 
 10) public String day (int x);
+
 Возвращает название дня недели по его номеру (1–7).
 
 11) public String listNums (int x);
+
 Выводит все числа от 0 до x в строку.
 
 12) public String chet (int x);
+
 Выводит все чётные числа от 0 до x.
 
 13) public int numLen (long x);
+
 Возвращает количество цифр в числе.
 
 14)  public void square (int x);
+
 Выводит на экран квадрат из символов * размером x × x.
 
 15)  public void rightTriangle (int x);
+
 Выводит на экран прямоугольный треугольник из символов *.
 
 16)  public int findFirst (int[] arr, int x);
+
 Возвращает индекс первого вхождения числа x в массив.
 
 17)  public int maxAbs (int[] arr);
+
 Находит элемент массива с наибольшим значением по модулю.
 
 18)  public int[] reverseBack (int[] arr);
+
 Возвращает новый массив, в котором элементы расположены в обратном порядке.
